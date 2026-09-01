@@ -1,0 +1,6 @@
+{
+  "name": "D&M Solution Panamá",
+  "description": "Sitio web oficial de nivel producción para D&M Solution Panamá con menú flotante de cristal, intro interactiva por scroll, acordeón de sectores con difusión cinemática y mapa Waze dark.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

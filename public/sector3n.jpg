@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad3n" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c2c30" />
+      <stop offset="40%" stop-color="#161619" />
+      <stop offset="100%" stop-color="#0a0a0c" />
+    </linearGradient>
+    <radialGradient id="light3n" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#161619" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1200" fill="url(#grad3n)" />
+  <circle cx="400" cy="480" r="300" fill="url(#light3n)" />
+  <g opacity="0.1" stroke="#FFFFFF" stroke-width="1.5">
+    <rect x="250" y="380" width="300" height="300" rx="20" fill="none" />
+    <circle cx="400" cy="530" r="80" fill="none" />
+    <line x1="400" y1="200" x2="400" y2="380" stroke-dasharray="6,6" />
+    <line x1="400" y1="680" x2="400" y2="860" stroke-dasharray="6,6" />
+  </g>
+  <text x="50%" y="85%" text-anchor="middle" fill="#FFFFFF" opacity="0.15" font-family="Inter, sans-serif" font-size="32" letter-spacing="8">GOVTECH & CIVIC PULSE</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142850" />
+      <stop offset="40%" stop-color="#0c1830" />
+      <stop offset="100%" stop-color="#0a0a0c" />
+    </linearGradient>
+    <radialGradient id="light2" cx="40%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#00d2ff" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#142850" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1200" fill="url(#grad2)" />
+  <circle cx="350" cy="450" r="320" fill="url(#light2)" />
+  <g opacity="0.15" stroke="#FFFFFF" stroke-width="1.5">
+    <polygon points="400,300 650,750 150,750" fill="none" />
+    <polygon points="400,420 550,700 250,700" fill="none" />
+  </g>
+  <text x="50%" y="85%" text-anchor="middle" fill="#FFFFFF" opacity="0.2" font-family="Inter, sans-serif" font-size="32" letter-spacing="8">INDUSTRIAL DESIGN</text>
+</svg>

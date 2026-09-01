@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad1n" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2a2e" />
+      <stop offset="40%" stop-color="#18181c" />
+      <stop offset="100%" stop-color="#0a0a0c" />
+    </linearGradient>
+    <radialGradient id="light1n" cx="60%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#18181c" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1200" fill="url(#grad1n)" />
+  <circle cx="500" cy="350" r="300" fill="url(#light1n)" />
+  <g opacity="0.1" stroke="#FFFFFF" stroke-width="1.5">
+    <circle cx="400" cy="600" r="280" fill="none" />
+    <circle cx="400" cy="600" r="180" fill="none" />
+    <line x1="100" y1="600" x2="700" y2="600" />
+    <line x1="400" y1="300" x2="400" y2="900" />
+  </g>
+  <text x="50%" y="85%" text-anchor="middle" fill="#FFFFFF" opacity="0.15" font-family="Inter, sans-serif" font-size="32" letter-spacing="8">CREATIVE STUDIO</text>
+</svg>
